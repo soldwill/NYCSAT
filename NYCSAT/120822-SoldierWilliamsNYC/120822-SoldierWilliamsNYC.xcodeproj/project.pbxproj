@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0240718E294242D600F49937 /* _20822_SoldierWilliamsNYCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0240718D294242D600F49937 /* _20822_SoldierWilliamsNYCApp.swift */; };
+		02407190294242D600F49937 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0240718F294242D600F49937 /* ContentView.swift */; };
+		02407192294242D800F49937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02407191294242D800F49937 /* Assets.xcassets */; };
+		02407195294242D800F49937 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02407194294242D800F49937 /* Preview Assets.xcassets */; };
+		0240719F294242D900F49937 /* _20822_SoldierWilliamsNYCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0240719E294242D900F49937 /* _20822_SoldierWilliamsNYCTests.swift */; };
+		024071A9294242D900F49937 /* _20822_SoldierWilliamsNYCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024071A8294242D900F49937 /* _20822_SoldierWilliamsNYCUITests.swift */; };
+		024071AB294242D900F49937 /* _20822_SoldierWilliamsNYCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024071AA294242D900F49937 /* _20822_SoldierWilliamsNYCUITestsLaunchTests.swift */; };
+		024071B8294243F000F49937 /* SchoolWithSATFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024071B7294243F000F49937 /* SchoolWithSATFormatter.swift */; };
+		024071BA2942441400F49937 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024071B92942441400F49937 /* ViewModel.swift */; };
+		024071BC2942443E00F49937 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024071BB2942443E00F49937 /* DetailView.swift */; };
+		024071BE2942446000F49937 /* SchoolListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024071BD2942445F00F49937 /* SchoolListView.swift */; };
+		024071C0294244BC00F49937 /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024071BF294244BC00F49937 /* LoadingOverlay.swift */; };
+		024071C32942450900F49937 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024071C22942450900F49937 /* NetworkManager.swift */; };
+		024071C52942452300F49937 /* NetworkEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024071C42942452300F49937 /* NetworkEndpoints.swift */; };
+		024071C72942452F00F49937 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024071C62942452F00F49937 /* School.swift */; };
+		024071C92942454400F49937 /* SAT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024071C82942454400F49937 /* SAT.swift */; };
+		024071CB2942455100F49937 /* SchoolWithSAT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024071CA2942455100F49937 /* SchoolWithSAT.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0240719B294242D900F49937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02407182294242D600F49937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02407189294242D600F49937;
+			remoteInfo = "120822-SoldierWilliamsNYC";
+		};
+		024071A5294242D900F49937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02407182294242D600F49937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02407189294242D600F49937;
+			remoteInfo = "120822-SoldierWilliamsNYC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0240718A294242D600F49937 /* 120822-SoldierWilliamsNYC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "120822-SoldierWilliamsNYC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0240718D294242D600F49937 /* _20822_SoldierWilliamsNYCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _20822_SoldierWilliamsNYCApp.swift; sourceTree = "<group>"; };
+		0240718F294242D600F49937 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02407191294242D800F49937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02407194294242D800F49937 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0240719A294242D800F49937 /* 120822-SoldierWilliamsNYCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "120822-SoldierWilliamsNYCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0240719E294242D900F49937 /* _20822_SoldierWilliamsNYCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _20822_SoldierWilliamsNYCTests.swift; sourceTree = "<group>"; };
+		024071A4294242D900F49937 /* 120822-SoldierWilliamsNYCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "120822-SoldierWilliamsNYCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		024071A8294242D900F49937 /* _20822_SoldierWilliamsNYCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _20822_SoldierWilliamsNYCUITests.swift; sourceTree = "<group>"; };
+		024071AA294242D900F49937 /* _20822_SoldierWilliamsNYCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _20822_SoldierWilliamsNYCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		024071B7294243F000F49937 /* SchoolWithSATFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolWithSATFormatter.swift; sourceTree = "<group>"; };
+		024071B92942441400F49937 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		024071BB2942443E00F49937 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		024071BD2942445F00F49937 /* SchoolListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListView.swift; sourceTree = "<group>"; };
+		024071BF294244BC00F49937 /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
+		024071C22942450900F49937 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		024071C42942452300F49937 /* NetworkEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEndpoints.swift; sourceTree = "<group>"; };
+		024071C62942452F00F49937 /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		024071C82942454400F49937 /* SAT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAT.swift; sourceTree = "<group>"; };
+		024071CA2942455100F49937 /* SchoolWithSAT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolWithSAT.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02407187294242D600F49937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02407197294242D800F49937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024071A1294242D900F49937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02407181294242D600F49937 = {
+			isa = PBXGroup;
+			children = (
+				0240718C294242D600F49937 /* 120822-SoldierWilliamsNYC */,
+				0240719D294242D900F49937 /* 120822-SoldierWilliamsNYCTests */,
+				024071A7294242D900F49937 /* 120822-SoldierWilliamsNYCUITests */,
+				0240718B294242D600F49937 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0240718B294242D600F49937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0240718A294242D600F49937 /* 120822-SoldierWilliamsNYC.app */,
+				0240719A294242D800F49937 /* 120822-SoldierWilliamsNYCTests.xctest */,
+				024071A4294242D900F49937 /* 120822-SoldierWilliamsNYCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0240718C294242D600F49937 /* 120822-SoldierWilliamsNYC */ = {
+			isa = PBXGroup;
+			children = (
+				024071C1294244EA00F49937 /* Network */,
+				0240718D294242D600F49937 /* _20822_SoldierWilliamsNYCApp.swift */,
+				0240718F294242D600F49937 /* ContentView.swift */,
+				02407191294242D800F49937 /* Assets.xcassets */,
+				02407193294242D800F49937 /* Preview Content */,
+				024071BF294244BC00F49937 /* LoadingOverlay.swift */,
+				024071BD2942445F00F49937 /* SchoolListView.swift */,
+				024071BB2942443E00F49937 /* DetailView.swift */,
+				024071B92942441400F49937 /* ViewModel.swift */,
+				024071B7294243F000F49937 /* SchoolWithSATFormatter.swift */,
+			);
+			path = "120822-SoldierWilliamsNYC";
+			sourceTree = "<group>";
+		};
+		02407193294242D800F49937 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02407194294242D800F49937 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0240719D294242D900F49937 /* 120822-SoldierWilliamsNYCTests */ = {
+			isa = PBXGroup;
+			children = (
+				0240719E294242D900F49937 /* _20822_SoldierWilliamsNYCTests.swift */,
+			);
+			path = "120822-SoldierWilliamsNYCTests";
+			sourceTree = "<group>";
+		};
+		024071A7294242D900F49937 /* 120822-SoldierWilliamsNYCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				024071A8294242D900F49937 /* _20822_SoldierWilliamsNYCUITests.swift */,
+				024071AA294242D900F49937 /* _20822_SoldierWilliamsNYCUITestsLaunchTests.swift */,
+			);
+			path = "120822-SoldierWilliamsNYCUITests";
+			sourceTree = "<group>";
+		};
+		024071C1294244EA00F49937 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				024071C22942450900F49937 /* NetworkManager.swift */,
+				024071C42942452300F49937 /* NetworkEndpoints.swift */,
+				024071C62942452F00F49937 /* School.swift */,
+				024071C82942454400F49937 /* SAT.swift */,
+				024071CA2942455100F49937 /* SchoolWithSAT.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02407189294242D600F49937 /* 120822-SoldierWilliamsNYC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024071AE294242D900F49937 /* Build configuration list for PBXNativeTarget "120822-SoldierWilliamsNYC" */;
+			buildPhases = (
+				02407186294242D600F49937 /* Sources */,
+				02407187294242D600F49937 /* Frameworks */,
+				02407188294242D600F49937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "120822-SoldierWilliamsNYC";
+			productName = "120822-SoldierWilliamsNYC";
+			productReference = 0240718A294242D600F49937 /* 120822-SoldierWilliamsNYC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02407199294242D800F49937 /* 120822-SoldierWilliamsNYCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024071B1294242D900F49937 /* Build configuration list for PBXNativeTarget "120822-SoldierWilliamsNYCTests" */;
+			buildPhases = (
+				02407196294242D800F49937 /* Sources */,
+				02407197294242D800F49937 /* Frameworks */,
+				02407198294242D800F49937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0240719C294242D900F49937 /* PBXTargetDependency */,
+			);
+			name = "120822-SoldierWilliamsNYCTests";
+			productName = "120822-SoldierWilliamsNYCTests";
+			productReference = 0240719A294242D800F49937 /* 120822-SoldierWilliamsNYCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		024071A3294242D900F49937 /* 120822-SoldierWilliamsNYCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024071B4294242D900F49937 /* Build configuration list for PBXNativeTarget "120822-SoldierWilliamsNYCUITests" */;
+			buildPhases = (
+				024071A0294242D900F49937 /* Sources */,
+				024071A1294242D900F49937 /* Frameworks */,
+				024071A2294242D900F49937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				024071A6294242D900F49937 /* PBXTargetDependency */,
+			);
+			name = "120822-SoldierWilliamsNYCUITests";
+			productName = "120822-SoldierWilliamsNYCUITests";
+			productReference = 024071A4294242D900F49937 /* 120822-SoldierWilliamsNYCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02407182294242D600F49937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					02407189294242D600F49937 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					02407199294242D800F49937 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 02407189294242D600F49937;
+					};
+					024071A3294242D900F49937 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 02407189294242D600F49937;
+					};
+				};
+			};
+			buildConfigurationList = 02407185294242D600F49937 /* Build configuration list for PBXProject "120822-SoldierWilliamsNYC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02407181294242D600F49937;
+			productRefGroup = 0240718B294242D600F49937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02407189294242D600F49937 /* 120822-SoldierWilliamsNYC */,
+				02407199294242D800F49937 /* 120822-SoldierWilliamsNYCTests */,
+				024071A3294242D900F49937 /* 120822-SoldierWilliamsNYCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02407188294242D600F49937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02407195294242D800F49937 /* Preview Assets.xcassets in Resources */,
+				02407192294242D800F49937 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02407198294242D800F49937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024071A2294242D900F49937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02407186294242D600F49937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02407190294242D600F49937 /* ContentView.swift in Sources */,
+				024071C52942452300F49937 /* NetworkEndpoints.swift in Sources */,
+				024071B8294243F000F49937 /* SchoolWithSATFormatter.swift in Sources */,
+				024071C72942452F00F49937 /* School.swift in Sources */,
+				024071BE2942446000F49937 /* SchoolListView.swift in Sources */,
+				024071BA2942441400F49937 /* ViewModel.swift in Sources */,
+				024071CB2942455100F49937 /* SchoolWithSAT.swift in Sources */,
+				024071C32942450900F49937 /* NetworkManager.swift in Sources */,
+				024071C0294244BC00F49937 /* LoadingOverlay.swift in Sources */,
+				024071C92942454400F49937 /* SAT.swift in Sources */,
+				024071BC2942443E00F49937 /* DetailView.swift in Sources */,
+				0240718E294242D600F49937 /* _20822_SoldierWilliamsNYCApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02407196294242D800F49937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0240719F294242D900F49937 /* _20822_SoldierWilliamsNYCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		024071A0294242D900F49937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024071A9294242D900F49937 /* _20822_SoldierWilliamsNYCUITests.swift in Sources */,
+				024071AB294242D900F49937 /* _20822_SoldierWilliamsNYCUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0240719C294242D900F49937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02407189294242D600F49937 /* 120822-SoldierWilliamsNYC */;
+			targetProxy = 0240719B294242D900F49937 /* PBXContainerItemProxy */;
+		};
+		024071A6294242D900F49937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02407189294242D600F49937 /* 120822-SoldierWilliamsNYC */;
+			targetProxy = 024071A5294242D900F49937 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		024071AC294242D900F49937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		024071AD294242D900F49937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		024071AF294242D900F49937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"120822-SoldierWilliamsNYC/Preview Content\"";
+				DEVELOPMENT_TEAM = G68473M5WV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SoldierWIlliams.-20822-SoldierWilliamsNYC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		024071B0294242D900F49937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"120822-SoldierWilliamsNYC/Preview Content\"";
+				DEVELOPMENT_TEAM = G68473M5WV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SoldierWIlliams.-20822-SoldierWilliamsNYC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		024071B2294242D900F49937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G68473M5WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SoldierWIlliams.-20822-SoldierWilliamsNYCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/120822-SoldierWilliamsNYC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/120822-SoldierWilliamsNYC";
+			};
+			name = Debug;
+		};
+		024071B3294242D900F49937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G68473M5WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SoldierWIlliams.-20822-SoldierWilliamsNYCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/120822-SoldierWilliamsNYC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/120822-SoldierWilliamsNYC";
+			};
+			name = Release;
+		};
+		024071B5294242D900F49937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G68473M5WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SoldierWIlliams.-20822-SoldierWilliamsNYCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "120822-SoldierWilliamsNYC";
+			};
+			name = Debug;
+		};
+		024071B6294242D900F49937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G68473M5WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SoldierWIlliams.-20822-SoldierWilliamsNYCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "120822-SoldierWilliamsNYC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02407185294242D600F49937 /* Build configuration list for PBXProject "120822-SoldierWilliamsNYC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024071AC294242D900F49937 /* Debug */,
+				024071AD294242D900F49937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024071AE294242D900F49937 /* Build configuration list for PBXNativeTarget "120822-SoldierWilliamsNYC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024071AF294242D900F49937 /* Debug */,
+				024071B0294242D900F49937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024071B1294242D900F49937 /* Build configuration list for PBXNativeTarget "120822-SoldierWilliamsNYCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024071B2294242D900F49937 /* Debug */,
+				024071B3294242D900F49937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024071B4294242D900F49937 /* Build configuration list for PBXNativeTarget "120822-SoldierWilliamsNYCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024071B5294242D900F49937 /* Debug */,
+				024071B6294242D900F49937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02407182294242D600F49937 /* Project object */;
+}
